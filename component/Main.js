@@ -125,7 +125,7 @@ const Main = () => {
                     <View style={{ padding: 20 }}>
                         <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Nike App Store</Text>
                     </View>
-
+                    {/* Banner section should be use react-native-snap-carousel */}
                     <View style={{ height: 160, width: '100%' }}>
                         <Swiper >
                             {banners.map((banner, index) =>
